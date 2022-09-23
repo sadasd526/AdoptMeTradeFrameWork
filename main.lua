@@ -1,3 +1,5 @@
+local l__load__1 = require(game.ReplicatedStorage:WaitForChild("Fsys")).load;
+local u7 = l__load__1("RouterClient")
 local module = {}
 
 function module.AcceptRequest(plr)
