@@ -42,9 +42,15 @@ end
 
 --make function to accept trade
 function module.AcceptTrade()
-	u7.get("TradeAPI/ConfirmTrade"):FireServer()
+	u7.get("TradeAPI/AcceptNegotiation"):FireServer()
 end
 
+
+--make function to accept trade
+function module.ConfirmTrade()
+	u7.get("TradeAPI/ConfirmTrade"):FireServer()
+end
+	
 --make function to decline trade
 function module.DeclineTrade()
 	u7.get("TradeAPI/DeclineTrade"):FireServer()
